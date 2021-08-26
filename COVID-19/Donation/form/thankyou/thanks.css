@@ -1,0 +1,89 @@
+*{
+	font-size:100%;
+    scroll-behavior:smooth;
+    font-family: sans-serif;
+}
+
+#pic {
+	padding: 3rem;
+	height:10rem;
+	width: 10rem;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+#head {
+	color: #111; 
+	font-family: 'Open Sans Condensed', 
+	sans-serif; font-size: 64px; 
+	font-weight: 700; 
+	line-height: 64px; 
+	margin: 0 0 0; 
+	padding: 20px 30px; 
+	padding-top: 0px;
+	text-align: center; 
+	text-transform: uppercase;
+}
+
+#extra {
+	font-family: 'Enriqueta', arial, serif;
+	text-align: center; 
+	line-height: 1.25;
+	margin: 0 0 10px; 
+	font-size: 30px;
+}
+
+#small {
+	font-family: 'Enriqueta', arial, serif;
+	text-align: center; 
+	line-height: 1;
+	margin: 0 0 10px; 
+	font-size: 20px;
+}
+
+#button {
+	box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 12px;
+    background: #27941e;
+    display: block;
+    margin-left: 5rem;
+    text-align: center;
+    margin-left: auto;
+  	margin-right: auto;
+}
+
+#button:hover {
+	 background: #25b818;
+}
+
+a{
+	color: #4766ff;
+}
+
+/* unvisited link */
+#button a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+#button a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* mouse over link */
+#button a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* selected link */
+#button a:active {
+  color: white;
+  text-decoration: none;
+}
