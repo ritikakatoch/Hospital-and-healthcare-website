@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+/* --------Navigation menu--------*/
+.nav-back{
+    background-color:#63599E;
+    color:#fff;
+}
+#icon{
+    color:black;
+}
+.navbar-brand{
+    color:white;
+    font-weight:700;
+    line-height: 0.05rem;
+    font-size:1.6rem!important;
+    margin-left: 0rem;
+
+} 
+.navbar-brand:hover{
+    color:white;
+} 
+.navbar-brand img{
+    display: inline;
+    width: 4rem;
+    height: 4rem;
+    margin-right: .5rem;
+    margin-left: 2rem!important;
+}
+
+.navbar .navbar-nav li{
+    padding: 0 8px;
+}
+.navbar .navbar-nav li a{
+    color:white;
+    font-weight: 600;
+    font-size:1.2rem;
+    text-align: left;
+    float: left;
+
+}
+.navbar .navbar-nav li a:hover{
+    color:black;
+    text-decoration: 2px solid white;
+    
+}
+.navbar-nav #covid-section{
+    color:red;
+}
+/*the toggle effect */
+.navbar-toggler-right{
+    color:#fff;
+}
+.navbar-toggler{
+    outline: none!important;
+  }
+
+
+
+.about-section{
+    margin: 0px 0px 0px 0px;
+    position:relative;
+    padding-top:90px;
+    /*background: url("about-img/backgroundpic1.jpg") center;
+    background-size:cover;*/
+}
+
+/*.about-section:before{
+    content:"";
+    background:rgba(0,0,0,0.8);
+    position:absolute;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    height:100.2vh;
+}*/
+
+.about-section .content-column{
+    position:relative;
+    margin-bottom:40px;
+}
+
+.about-section .content-column .inner-column{
+    position:relative;
+    padding-top:50px;
+    padding-right:100px;
+}
+
+.about-section .content-column .text{
+    position:relative;
+    color:#777777;
+    font-size:15px;
+    line-height:2em;
+    margin-bottom:40px;
+    /*font-weight: bold;*/
+}
+
+.about-section .image-column{
+    position:relative;
+    margin-bottom:50px;
+    margin-top: 8rem;
+}
+
+.about-section .image-column .inner-column{
+    position:relative;
+    padding:40px 40px 0px 0px;
+    /*margin-left:50px;*/
+}
+
+.about-section .image-column .inner-column:after{
+    position:absolute;
+    content:'';
+    right:0px;
+    top:0px;
+    left:40px;
+    bottom:100px;
+    z-index:-1;
+    border:2px solid #63599E;
+}
+
+.about-section .image-column .inner-column .image img{
+    position:relative;
+    width:100%;
+    display:block;
+}
+
+.sec-title {
+    position: relative;
+    padding-bottom: 10px;
+}
+.sec-title .title {
+    position: relative;
+    color: #63599E;
+    font-size: 38px;
+    font-weight: 700;
+    padding-right: 50px;
+    margin-bottom: 15px;
+    display: inline-block;
+    text-transform: capitalize;
+}
