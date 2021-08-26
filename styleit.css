@@ -1,0 +1,50 @@
+ /*notification section*/
+
+.notification{
+    background:#ffc907;
+}
+
+.fixed-alert{
+    position:fixed!important;
+    top:0;
+    right:0;
+    left:0;
+ }
+
+.notification .alert{
+    display: inline;
+    margin:5px 8px;
+    background: #ffa501;
+  
+}
+
+.notification p{
+    color:black;
+    font-size:1rem;
+    position: relative;
+    padding: 7px 15px;
+    margin: 8px;
+    font-weight: 600;
+    top:-9px!important;
+}
+
+#close-it{
+    height:18px;
+    width:18px;
+    margin-left:584px;
+    margin-right: 20px;
+    
+}
+
+#warning-icon{
+    height:25px;
+    width:25px;
+    padding:5px;
+    margin-top:-2px;
+}
+
+#close{
+    text-align: end;
+}
+  
+/*notification section ends*/
