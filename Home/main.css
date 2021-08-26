@@ -19,7 +19,7 @@ html{
 
 body{
     
-    background: url(./healthcare/backgroundpic.jpg)!important;
+    background: url(../healthcare/backgroundpic.jpg)!important;
     background-size:contain;
     background-position:center;
     background-repeat: no-repeat;
@@ -99,7 +99,7 @@ body{
 #hero{
     width:100%;
     height:100vh;
-    background:url("./healthcare/about.jpg") center;
+    background:url("../healthcare/about.jpg") center;
     background-size:cover;
 }
 
@@ -161,7 +161,7 @@ body{
 #hero1{
 	width:100%;
     height:91vh;
-    background:url("./healthcare/hero3.jpg") center;
+    background:url("../healthcare/hero3.jpg") center;
     background-size: cover;
 }
 
