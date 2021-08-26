@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Covid-19 Portal</title>
+    <link rel="stylesheet" href="designs.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Donation</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">First Name</span>
+            <input type="text" placeholder="First Name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Last Name</span>
+            <input type="text" placeholder="Last Name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="email" placeholder="Email ID" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="number" placeholder="Phone Number" minlength="10" maxlength="10" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Address</span>
+            <input type="text" placeholder="Address" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Zip/Postal Code</span>
+            <input type="number" placeholder="zip" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="payment" id="dot-1">
+          <input type="radio" name="payment" id="dot-2">
+          <input type="radio" name="payment" id="dot-3">
+          <span class="gender-title">Payment Details</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">PayPal</span><img src="donateimg/paypal.png" class="doimg">
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Debit/Credit Card</span><img src="donateimg/mastercard.png" class="doimg">
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Wallet</span><img src="donateimg/digital.png" class="doimg">
+            </label>
+          </div>
+        </div>
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Card Number</span>
+            <input type="number" placeholder="Card Number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Card Holder Name</span>
+            <input type="text" placeholder="Card Holder Name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Expire date</span>
+            <select name="Month" style="color: #7b7b7b" placeholder="Month" required>
+              <option value="Month" style="color: #7b7b7b" disabled selected>Month</option>
+              <option value="January" style="color: #000">January</option>
+              <option value="February" style="color: #000">February</option>
+              <option value="March" style="color: #000">March</option>
+              <option value="April" style="color: #000">April</option>
+              <option value="May" style="color: #000">May</option>
+              <option value="June" style="color: #000">June</option>
+              <option value="July" style="color: #000">July</option>
+              <option value="August" style="color: #000">August</option>
+              <option value="September" style="color: #000">September</option>
+              <option value="October" style="color: #000">October</option>
+              <option value="November" style="color: #000">November</option>
+              <option value="December" style="color: #000">December</option>
+          </select>
+           
+          </div>
+          <div class="input-box">
+            <span class="details" id="year">year</span>
+            <input type="number" placeholder="year" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Security Code(CVC)</span>
+            <input type="number" placeholder="Security code" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Donation Amount(Rs)</span>
+            <input type="number" placeholder="Amount" required >
+          </div>
+        </div>
+        <button class="button" type="submit"><a href="thankyou/thanks.html" id="link">PAY NOW</a></button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

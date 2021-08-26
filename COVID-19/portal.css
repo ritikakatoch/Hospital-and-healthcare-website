@@ -1,0 +1,428 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+
+    background-image: url("img/back.jpg");
+    font-family: sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#nav-bar .logo{
+    height:3rem;
+    width: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#nav-bar #donate{
+    color:red;
+    text-decoration: 2px solid white;
+}
+
+#nav-bar .navbar{
+    background: linear-gradient(to left, #24c6dc, #514a9d);
+    padding:0;
+    height: 6rem;
+}
+
+#nav-bar .navbar a{
+    color:white !important;
+    font-weight: bold;
+}
+
+#nav-bar.navbar a:hover{
+    transform: translateY(-5px); 
+}
+
+#nav-bar .navbar-nav li {
+    padding:0 10px;
+}
+
+#nav-bar .navbar-nav li a{
+    color: #0a115f !important;
+    font-weight: bold;
+    float: right;
+    text-align: left;
+}
+
+#nav-bar .navbar-toggler{
+    color: white !important;
+}
+
+#nav-bar .dropdown-menu{
+    background: #24c6dc
+}
+
+#banner{
+    background: linear-gradient(to left, #24c6dc, #514a9d);
+    color:  white;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#banner #promo-title{
+    font-size: 45px;
+    margin: 0px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    padding-top: 3rem;
+    color: #ffffff;
+}
+
+#banner #info{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.5rem;
+    font-size: 1.3rem;
+}
+
+#banner .play-btn{
+    width: 45px;
+    height:45px;
+}
+
+#banner a{
+   color:  white;
+   text-decoration: none;
+}
+
+#banner .bottom-img{
+    width:100%;
+}
+
+#banner .img-fluid{
+    width:250px;
+    height:320px;
+    padding-bottom: 20%;
+}
+ 
+/*------------ symptoms -------------*/
+#symptoms{
+    padding: 80px 0;
+    margin: 10px 10px;
+}
+
+#symptoms .sym-img{
+    width: 150px;
+    height: 150;
+    margin: 20px;
+    border: 2.5px solid #514a9d;
+    box-shadow: 5px 5px 5px #d3d3d3;
+    border-radius: 10px !important;
+    background: white;
+    padding: 1rem;
+}
+
+.title::before{
+     content:'';
+     background: linear-gradient(to left, #24c6dc, #514a9d);
+     height: 5px;
+     width: 150px;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+     transform: translateY(63px);
+}
+
+.title::after{
+    content:'';
+    background: linear-gradient(to left, #24c6dc, #514a9d);
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+#symptoms .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to left, #24c6dc, #514a9d);
+    display: block;
+    margin-top: 1.5rem;
+    box-shadow: 5px 5px 5px #392e76;
+}
+
+/*------------ precaution ------------*/
+
+#precaution .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to left, #24c6dc, #514a9d);
+    display: block;
+    box-shadow: 5px 5px 5px #392e76;
+}
+
+#precaution .sym-img{
+    width: 150px;
+    height: 150;
+    margin: 20px;
+    border: 2.5px solid #514a9d;
+    box-shadow: 5px 5px 5px #d3d3d3;
+    border-radius: 10px !important;
+    background: white;
+    padding: 1rem;
+}
+
+/* ------------vaccine -------------*/
+
+#vaccine{
+    padding-top:70px;
+    padding-bottom: 70px;
+    margin: 10px 10px;
+}
+
+#vaccine .card-vaccine{
+    width:250px;
+    height: 250px;
+    border: 2.5px solid #514a9d;
+    box-shadow: 5px 5px 5px #d3d3d3;
+    border-radius: 10px;
+    margin: 10px;
+    background: white;
+}
+
+#vaccine .card-text{
+    font-size: medium;
+    text-align: center;
+}
+
+#vaccine img{
+    width: 220px;
+    height: auto;
+}
+
+#vaccine #injection{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 220px;
+    height: auto;
+}
+
+#vaccine .vaccine-img{
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#vaccine #btn-vaccine{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to left, #24c6dc, #514a9d);
+    display: block;
+    margin-top: 55px;
+    align-self: baseline;
+    box-shadow: 5px 5px 5px #392e76;
+}
+ 
+/* ----------idea-box---------- */
+#idea-box{
+    margin:10px 0; 
+}
+
+#idea-box .idea-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#idea-box .card{
+    padding: 0px;
+    margin: 8px 3px;
+    width: 220px;
+    height: 220px;
+    border: 2.5px solid #514a9d;
+    box-shadow: 5px 5px 5px #d3d3d3;
+    border-radius: 10px !important;
+}
+
+#idea-box #bulb{
+    width: 16.8rem;
+    margin-top: 0.5rem;
+    height: 13.8rem;
+    border: 2.5px solid #514a9d;
+    box-shadow: 5px 5px 5px #d3d3d3;
+    border-radius: 10px !important;
+    background: white;
+    padding: 1rem;
+}
+
+#idea-box textarea{
+    border: 2.5px solid #514a9d;
+    margin-top: 8px;
+    box-shadow: 5px 5px 5px #d3d3d3;
+    border-radius: 10px !important;
+    width: 270px;
+    height: 220px;
+    padding: 10px;
+}
+
+#idea-box #text{
+    text-align: end;
+}
+#idea-box .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 12px;
+    background: linear-gradient(to left, #24c6dc, #514a9d);
+    display: block;
+    box-shadow: 5px 5px 5px #392e76;
+    margin-left: 5rem;
+}
+
+/*--------- social hub ----------*/
+
+#social-media{
+    padding: 100px 0;
+}
+
+#social-media .social-icons img{
+    width: 60px;
+    transition: 0.5s;
+    margin: 10px 5px;
+}
+
+#social-media .social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/*-------- footer-section  -----------*/
+#footer{
+    background: linear-gradient(to left, #24c6dc, #514a9d);
+    color:black;
+}
+
+#footer .footer-box{
+    padding: 36px;
+}
+
+#footer .logo{
+    width:50px;
+    margin: 10px ;
+}
+
+#footer .footer-box p{
+    text-align: justify;
+}
+
+#footer .footer-img{
+    width: 30px;
+    margin-right:8px!important;
+    margin-top: 5px!important;
+    margin-bottom: 5px!important;
+}
+
+.footer-box .address{
+    margin-left: -33px!important;
+    padding-right:3px;
+}
+
+.footer-box .number{
+    margin-left: -64px!important;
+    padding-right:3px;
+}
+
+.footer-box .email{
+    margin-left: 23px!important;
+    padding-right:3px!important;
+}
+
+#footer .footer-box .form-control{
+    box-shadow: none;
+    border: none;
+    border-radius: 0%;
+    margin-top: 25px;
+}
+
+#footer .footer-box .btn-primary{
+    margin: 28px 0px;
+    padding: 2px;
+    width: 150px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background: #00778a;
+    box-shadow: 5px 5px 5px #392e76;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px #000000;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    transition: all 0.3s;
+    font-weight: 600;
+}
+
+#footer .footer-box .btn-primary:hover{
+    background: #2c527a;
+}
+
+#footer .col-md-4 footer-box{
+    margin: auto;
+}
+
+#footer hr{
+    background-color: black;
+}
+
+#footer .copyright{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: -1.3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0%;
+}
+
+#footer #foot{
+    text-align: center;
+}
+
+#footer .head{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+@media(max-width:998px){
+    .footer-box .email{
+        margin-left: -15px!important;
+        padding-right:3px!important;
+    }
+
+}
