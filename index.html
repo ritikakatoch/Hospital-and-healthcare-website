@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Lawrence Healthcare</title>
+
+  <!-- Ritika Katoch -->
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--CSS FILE-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/stats.css">
+    <link rel="stylesheet" type="text/css" href="css/styleit.css">
+    <!--JQUERY FILE-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+    
+    <!--MEDIA QUERIES-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+     
+    <!-- FontAwesome -->
+    <link href="../healthcare/1.png" rel="icon" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a7366cc0cf.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+  <!-- Ritika Rao -->
+
+  <link rel="stylesheet" type="text/css" href="css/Mystyle.css">
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+  <!-- Ritika Grover -->
+
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+  <link rel="stylesheet" href="css/covid.css">
+  <script src="contact.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet"
+    href=" https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+    <nav class="alert-box fixed-top">
+      	<div class="notification fixed-alert">
+      	<div class="alert-message">
+        	<p class="info1">
+            	<img src="img2/warning3.png" id="warning-icon">
+            	Review the latest information on visitor policies, safety procedures, vaccines and more in the &nbsp;
+            	<a href="COVID-19/portal.html" id="remove"> Covid 19 resources</a>
+				<span id="close"><img src="img2/cross2.png" alt="close" id="close-it"></span>
+			</p>
+      	</div>
+    	</div>
+    </nav>
+</header>
+
+<!-- Nav bar -->
+<section class="navbar" id="navbar">
+    <nav class="navbar navbar-expand-lg nav-back fixed-top">
+    <!-- <div class="container" id="myDiv"> -->
+        <a href="#" class="navbar-brand"><img src="healthcare/3.png" alt="logo">The Lawrence Hospital</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation"><i class="fas fa-bars fa-2x"></i>
+        </button>
+      	<div class="collapse navbar-collapse" id="navbarResponsive">
+        	<ul class="navbar-nav ml-auto">
+          		<li class="nav-item">
+            		<a href="#" class="nav-link scroll">Home</a>
+          		</li>
+          		<li class="nav-item">
+            		<a href="#cents" class="nav-link scroll">Centres of Excellence</a>
+          		</li>
+          		<li class="nav-item">
+			        <a href="#services" class="nav-link scroll">Services</a>
+			    </li>
+			    <li class="nav-item">
+			        <a href="#appointment" class="nav-link scroll">Appointment</a>
+			    </li>
+			    <li class="nav-item">
+			        <a href="#team" class="nav-link scroll">Team</a>
+			    </li>
+			    <li class="nav-item">
+			        <a href="#review" class="nav-link scroll">Reviews</a>
+			    </li>
+			    <li class="nav-item">
+			        <a href="#covid" class="nav-link scroll" id="covid-section">Covid-19</a>
+			    </li>
+        	</ul>
+      	</div>
+    <!-- </div> -->
+  	</nav>
+</section>
+
+<!-- End of nav bar -->
+
+<!-- End Header -->
+
+<!--Hero Image-->
+<section id="hero" class="d-flex align-items-center">
+    <div class="container text-center position-relative">
+        <h1>WHAT MAKES US BETTER,<br>MAKES YOU BETTER.</h1>
+        <h2 class="text-uppercae">WE ARE WITH YOU TODAY,AND EVERYDAY</h2>
+        <a href="../ABOUT/about.html" class="main-btn">Learn More</a>
+    </div>
+</section>
+<!--End of Hero image-->
+
+<!--Start of hero 2 image-->
+<section id="hero1" class="d-flex align-items-center">
+    <h2 class="section-title change">Our teams lead the way to better<br>medicine.<br>
+      	<span>
+        	<p class="change-it">See how Lawrence Medicine's physicians
+          collaborate to solve the toughest cases.</p>
+      	</span>
+      	<a href="../ABOUT/about.html" class="main-btn2">LEARN MORE</a>
+    </h2>
+    <div  id="cents"></div>
+</section>
+<!--End of Hero2-->
+
+<!--Center of excellence-->
+
+<section id="excellence" class="excellence">
+    <section class="wrapper equipment">
+        <section class="container pltr">
+            <h2 class="text-center" >Centres of Excellence</h2>
+            <h4>Combining the best specialists and equipment to provide you nothing short of the best in healthcare.</h4>
+    
+            <div class="brands_desk" id="centershadow">
+            <ul class="center_ex_">
+                 
+            <li>
+              <div class="list__row">
+                <a target="_self" href="https://health.usnews.com/conditions/heart-disease"><figure><img title="Cardiology" alt="Cardiology" src="https://web.archive.org/web/20201211024734im_/https://www.apollohospitals.com/images/coe/heart.png" class="img-responsive" draggable="false">
+              </figure><aside class="desc"><h3 class="flex-caption">Heart</h3></aside></a>
+              </div>
+        
+	          <div class="list__row">
+	            <a target="_self" href="https://www.verywellhealth.com/orthopedics-4014679">
+	            <figure><img title="Orthopedic Hospital In India" alt="Orthopedic Hospital In India" src="https://web.archive.org/web/20201211024734im_/https://www.apollohospitals.com/images/coe/orthopaedics.png" class="img-responsive" draggable="false"></figure><aside class="desc"><h3 class="flex-caption">Orthopaedics</h3></aside></a>
+	          </div>
+            </li> 
+      
+            <li>
+		        <div class="list__row">
+		           <a target="_self" href="https://health.usnews.com/conditions/cancer/breast-cancer?int=top_nav_Breast_Cancer"><figure><img title="Best Cancer Hospital In India" alt="Best Cancer Hospital In India" src="https://web.archive.org/web/20201211024734im_/https://www.apollohospitals.com/images/coe/cancer-care.png" class="img-responsive" draggable="false"></figure><aside class="desc"><h3 class="flex-caption">Cancer Care</h3></aside></a>
+		        </div>
+
+		        <div class="list__row">
+		           <a target="_self" href="https://health.usnews.com/conditions/diabetes?int=top_nav_Diabetes"><figure><img title="Diabetes" alt="Diabetes" src="https://web.archive.org/web/20201211024734im_/https://www.apollohospitals.com/images/coe/diabetic.png" class="img-responsive" draggable="false"></figure><aside class="desc"><h3 class="flex-caption">Diabetes</h3></aside></a>
+		        </div>
+            </li>
+           
+            <li>
+		        <div class="list__row">
+		           <a target="_self" href="https://stanfordhealthcare.org/medical-clinics/neuroscience.html"><figure><img title="Neurology And Neurosurgery" alt="Neurology And Neurosurgery" src="https://web.archive.org/web/20201211024734im_/https://www.apollohospitals.com/images/coe/neurosciences.png" class="img-responsive" draggable="false"></figure><aside class="desc"><h3 class="flex-caption">Neurosciences</h3></aside></a>
+		        </div>
+
+		        <div class="list__row">
+		           <a target="_self" href="https://health.usnews.com/conditions/digestive-disease"><figure><img title="Best Gastroenterology Hospital In India" alt="Best Gastroenterology Hospital In India" src="https://web.archive.org/web/20201211024734im_/https://www.apollohospitals.com/images/coe/gastroenterology.png" class="img-responsive" draggable="false"></figure><aside class="desc"><h3 class="flex-caption">Gastroenterology</h3></aside></a>
+		        </div>
+            </li>
+
+            <li>
+	            <div class="list__row">
+	               <a target="_self" href="https://www.webmd.com/heart-disease/heart-failure/heart-failure-heart-transplant"><figure><img title="Multi Organ Transplants" alt="Multi Organ Transplants" src="https://web.archive.org/web/20201211024734im_/https://www.apollohospitals.com/images/coe/transplants.png" class="img-responsive" draggable="false"></figure><aside class="desc"><h3 class="flex-caption">Transplants</h3></aside></a>
+	            </div>
+
+	            <div class="list__row">
+	               <a target="_self" href="https://www.webmd.com/heart-disease/heart-failure/heart-failure-heart-transplant"><figure><img title="Best Critical Care Hospital In India" alt="Best Critical Care Hospital In India" src="https://web.archive.org/web/20201211024734im_/https://www.apollohospitals.com/images/coe/critical-care.png" class="img-responsive" draggable="false"></figure><aside class="desc"><h3 class="flex-caption">Critical Care</h3></aside></a>
+	            </div>
+            </li> 
+
+            <li>
+	            <div class="list__row">
+	               <a target="_self" href="https://asmbs.org/patients/bariatric-surgery-procedures"><figure><img title="Bariatric Surgery" alt="Bariatric Surgery" src="https://web.archive.org/web/20201211024734im_/https://www.apollohospitals.com/images/coe/bariatric-surgery.png" class="img-responsive" draggable="false"></figure><aside class="desc"><h3 class="flex-caption">Bariatric Surgery</h3></aside></a>
+	            </div>
+
+	            <div class="list__row">
+	               <a target="_self" href="https://medicalfuturist.com/robotics-healthcare/"><figure><img title="Robotics Surgery" alt="Robotics Surgery" src="https://web.archive.org/web/20201211024734im_/https://www.apollohospitals.com/images/coe/robotics.png" class="img-responsive" draggable="false"></figure><aside class="desc"><h3 class="flex-caption">Robotics</h3></aside></a>
+	            </div>
+            </li> 
+
+            <li>
+	            <div class="list__row">
+	               <a target="_self" href="https://www.ncbi.nlm.nih.gov/books/NBK209704/"><figure><img title="Preventive Medicine" alt="Preventive Medicine" src="https://web.archive.org/web/20201211024734im_/https://www.apollohospitals.com/images/coe/preventive-medicine.png" class="img-responsive" draggable="false"></figure><aside class="desc"><h3 class="flex-caption">Preventive Medicine</h3></aside></a>
+	            </div>
+
+	            <div class="list__row">
+	               <a target="_self" href="https://icuconsultants.com/criticalcare.html#:~:text=Critical%20care%20can%20be%20provided,intensive%20care%20units%20(ICU)."><figure><img title="Emergency" alt="Emergency" src="https://web.archive.org/web/20201211024734im_/https://www.apollohospitals.com/images/coe/emergency.png" class="img-responsive" draggable="false"></figure><aside class="desc"><h3 class="flex-caption">Emergency</h3></aside></a>
+	            </div> 
+            </li>
+			</ul>
+      		</div>
+        </section>
+    </section>
+    <div id="covid"></div>
+</section>
+  <!-- Center of excellence End -->
+
+  <!-- Covid Section -->
+<section id="banner">
+    <div class="container">
+      	<div class="row">
+	        <div class="col-md-6">
+	          <p id="promo-title"><a href="COVID-19/portal.html">COVID-19</a></p>
+	          <p id="info">Defined as illness caused by a novel Coronavirus now called severe acute respiratory syndrome</p>
+	          <p id="hideshow">The coronavirus is a family of viruses that can cause a range of illnesses in humans including common cold and more severe forms like SARS and MERS which are life-threatening. The virus is named after its shape which takes the form of a crown with protrusions around it and hence is known as coronavirus.</p>
+	          <a href="https://www.bing.com/videos/search?q=brief+information+about+covid-19&&view=detail&mid=691B5076366793AC0C00691B5076366793AC0C00&&FORM=VRDGAR&ru=%2Fvideos%2Fsearch%3Fq%3Dbrief%2Binformation%2Babout%2Bcovid-19%26FORM%3DHDRSC4">
+	            <img class="play-btn" src="static/player.png">
+	            <span id="info">Watch Video</span></a>
+	        </div>
+        <div class="col-md-6 text-center">
+          <img src="static/education.png" class="img-fluid">
+        </div>
+    	</div>
+    </div>
+    <div id="services"></div>
+</section>
+<!-- End of Covid Section -->
+
+
+<!-- Services Section -->
+<section class="facilities">
+  	<section class="services mt-5 mb-5 py-3">
+    <div class="container">
+
+	    <div class="section-title">
+	        <h2 class="text-center" id="services">
+	          Services
+	        </h2>
+	    </div>
+
+        <div class="row">
+          	<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            	<div class="service shadow">
+               	<div class="icon">
+                  	<i class="fas fa-tooth"></i>
+                </div>
+                  	<h4><a href="#dental">Dental Care Service</a></h4>
+                  	<p>Primary focus is in the areas of top quality
+                       dental treatments, dental surgeries, cosmetic
+                       dentistry, Orthodontics, Periodontics and Implantology.
+                    </p>
+            	</div>
+          		</div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            	<div class="service shadow">
+               	<div class="icon">
+                  	<i class="fas fa-lungs"></i>
+                </div>
+	                <h4><a href="#lungs">Respiratory Critical Care</a></h4>
+	                <p>Management of all Respiratory emergencies & Acute Critical conditions.
+	                   We have Pulmonary  rehabilitation that is specific to the individual patient, with the objective of meeting the needs of the patient.
+	                </p>
+            	</div>
+            </div>
+          
+           	<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            	<div class="service shadow">
+               	<div class="icon">
+                  	<i class="fas fa-heart"></i>
+                </div>
+                  	<h4><a href="#cardiology">Cardiovascular Care</a></h4>
+                  	<p>We can treat any heart or vascular condition you may have, using state-of-the
+                    -art technology and procedures as part of your personalized treatment plan.
+                  	</p>
+            	</div>
+          	</div>
+
+           	<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            	<div class="service shadow">
+               	<div class="icon">
+                  	<i class="fas fa-dna"></i>
+                </div>
+                  	<h4><a href="#dna">Chromosomal Testing</a></h4>
+                  	<p>We provide Genetic Chromosomal Testing & DNA Testing Services.
+                    Highly sophisticated services about relationship, ancestry, 
+                    identity and genetic Chromosomal diseases. 
+                    </p>
+            	</div>
+          	</div>
+
+           	<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            	<div class="service shadow">
+               	<div class="icon">
+                  	<i class="fas fa-ambulance"></i>
+                </div>
+                  	<h4><a href="#emergency">Critical Care</a></h4>
+                  	<p>We have 106 Intensive Care Unit beds, 
+                    14 High Dependency Unit beds and 10 Cardiac Thoracic Vascular
+                     Surgery Unit Beds.
+                 	</p>
+            	</div>
+          	</div>
+
+           	<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            	<div class="service shadow">
+               	<div class="icon">
+                  	<i class="fas fa-allergies"></i>
+                </div>
+                  	<h4><a href="#allergy">Allergy or Immunology center</a></h4>
+                  	<p>We provide diagnostic procedures and novel treatment
+                     approaches for patients suffering from
+                     fever, asthma due to allergies, eczema, hives, drug allergies etc.
+                  	</p>
+            	</div>
+          	</div>
+        </div>
+    </div>
+    <div id="appointment"></div>
+  	</section>
+</section>
+
+<!-- Appointment Section -->
+<section id="appointment" class="appointment" >
+  	<h1 class="heading">Make an Appointment</h1>
+  	<form name='registration' onSubmit="return formValidation();">
+	    <input name="name" type="text" class="feedback-input" placeholder="Full Name*" />   
+	    <input name="email" type="text" class="feedback-input" placeholder="Email*" />
+	    <input name="phone" type="number" class="feedback-input" placeholder="Phone no.*" />
+	    <select name="appointment" class="feedback-input" placeholder="Make an Appointment">
+	        <option value="appointment" disabled selected style="color: #64637a">Make an Appointment*</option>
+	        <option value="09-11am" style="color: #64637a">09-11 AM</option>
+	        <option value="11-03pm" style="color: #64637a">11-03 PM</option>
+	        <option value="03-06pm" style="color: #64637a" >03-06 PM</option>
+	        <option value="06-09pm" style="color: #64637a">06-09 PM</option>
+	    </select>
+	    <textarea name="text" class="feedback-input" placeholder="Message (optional)"></textarea>
+	    <input name="submit" type="submit" value="SUBMIT"/>
+	    <div id="team"></div>
+  	</form>
+</section>
+<!-- End of Appointment Section -->
+
+<!-- Team Section -->
+<section class="team">
+    <div class="cont">
+
+        <div class="section-title" >
+            <h2 class="heading">Core Team</h2>
+            <p class="para">Our Amazing hardworking and enthusiastic team.
+            </p>
+        </div>
+
+        <div class= "main-div">
+			<div class="member">
+                <div class="image"><img src="static/doctor1.png" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                    <h4>Dr. George A. Beller</h4>
+                    <span>Dermatologist</span>
+                    <p>Treats all the conditions related to the skin.</p>
+                    <div class="social">
+                        <a href="https://mobile.twitter.com/login"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/login/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="member">
+              	<div class="image"><img src="static/doctor2.jpg" class="img-fluid" alt=""></div>
+              	<div class="member-info">
+                	<h4>Dr. Alice Pearson</h4>
+                	<span>General Physician</span>
+                	<p>Conduct regular patient check-ups.</p>
+                	<div class="social">
+                        <a href="https://mobile.twitter.com/login"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/login/"><i class="fab fa-linkedin-in"></i></a>
+                	</div>
+              	</div>
+            </div>
+
+
+            <div class="member">
+              	<div class="image"><img src="static/doctor3.jpg" class="img-fluid" alt=""></div>
+              	<div class="member-info">
+                	<h4>Dr. Deepak Kapoor</h4>
+                	<span>General Surgeon</span>
+                	<p>Treats the patients with acute problems.</p>
+                	<div class="social">
+                        <a href="https://mobile.twitter.com/login"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/login/"><i class="fab fa-linkedin-in"></i></a>
+                	</div>
+              	</div>
+            </div>
+
+
+            <div class="member">
+              	<div class="image"><img src="static/doctor4.png" class="img-fluid" alt=""></div>
+              	<div class="member-info">
+                	<h4>Dr. John P. DiMarco</h4>
+                	<span>Cardiologist</span>
+                	<p>Treats conditions of cardiovascular system.</p>
+                	<div class="social">
+                        <a href="https://mobile.twitter.com/login"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/login/"><i class="fab fa-linkedin-in"></i></a>
+                	</div>
+              	</div>
+            </div>
+
+
+            <div class="member">
+              	<div class="image"><img src="static/doctor5.jpg" class="img-fluid" alt=""></div>
+              	<div class="member-info">
+                	<h4>Dr. James Williams</h4>
+                	<span>Pediatricians</span>
+                	<p>Examine children to assess their growth.</p>
+                	<div class="social">
+                        <a href="https://mobile.twitter.com/login"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/login/"><i class="fab fa-linkedin-in"></i></a>
+                	</div>
+              </div>
+            </div>
+
+
+            <div class="member">
+              	<div class="image"><img src="static/doctor6.jpg" class="img-fluid" alt=""></div>
+              	<div class="member-info">
+                	<h4>Dr. Mary Schiff</h4>
+                	<span>ENT Specialist</span>
+                	<p>Focuses on areas like ear, nose, and throat.</p>
+                	<div class="social">
+                        <a href="https://mobile.twitter.com/login"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/login/"><i class="fab fa-linkedin-in"></i></a>
+                		</div>
+              	</div>
+            </div>
+
+
+            <div class="member">
+              	<div class="image"><img src="static/doctor7.jpg" class="img-fluid" alt=""></div>
+              	<div class="member-info">
+                	<h4>Dr. Zhao Yifei</h4>
+                	<span>Dentist</span>
+                	<p>Treats problems related with patient’s mouth.</p>
+                	<div class="social">
+                        <a href="https://mobile.twitter.com/login"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/login/"><i class="fab fa-linkedin-in"></i></a>
+                	</div>
+              	</div>
+            </div>
+
+
+            <div class="member">
+              	<div class="image"><img src="static/doctor8.png" class="img-fluid" alt=""></div>
+              	<div class="member-info">
+                	<h4>Dr. Neetu Deshmukh</h4>
+                	<span>Gynecologist</span>
+                	<p>Treats overall health of female patients.</p>
+                	<div class="social">
+                        <a href="https://mobile.twitter.com/login"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/login/"><i class="fab fa-linkedin-in"></i></a>
+                	</div>
+              	</div>
+            </div>
+
+        </div>
+    </div>
+</section>
+   
+<!-- End of Team Section -->
+
+<!-- Review Section -->
+
+<section class="review" id="review">
+
+  <h1 class="heading"> People's Review </h1>
+
+  <div class="box-container">
+
+      <div class="box">
+          <p>Hospitals staff is very cooperative. For every now and then all investigations are made, which is very good. While taking patients to the investigations, sisters take good care. Housekeeping is well and good. The hospital canteen services are also so excellent, time to time service is good.</p>
+          <h3>Nagesh Vishwanatham</h3>
+          <span>Jan 5, 2021</span>
+          <img src="static/patient1.png" alt="">
+      </div>
+
+      <div class="box">
+          <p>Excellent facility. Spacious and comfortable for elders. I‘ve been bringing my parents here for annual checkups for more than a decade. Overall process can be made more efficient but it is kind of offset as there is plenty of staff who are friendly and quick to help!</p>
+          <h3>Crystal Lopez</h3>
+          <span>Feb 7, 2021</span>
+          <img src="static/patient2.png" alt="">
+      </div>
+
+      <div class="box">
+          <p>Hospital with good doctors. Medical care is so well organised that one can easily find out the place to go for treatment where as the reception are very helpful. Staff member of the hospital are very descent. </p>
+          <h3>Steve Smith</h3>
+          <span>Nov 10, 2020</span>
+          <img src="static/patient3.png" alt="">
+      </div>
+
+  </div>
+<div id="contact1"></div>
+</section>
+
+  <!-- End of Appointment Section -->
+
+  <!-- Contact Section -->
+  
+<section id="contacts">
+  <div class="alert-heading"><h1 class="title">Contact</h1> 
+    <h3 class="sub-title">In case of any Medical Emergency, Contact us</h3>
+  </div>
+  <section id="contact">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6">
+              <div>
+                  <!-- <h2>Hospital Address</h2> -->
+                  <div class="row">
+                      <div class="cols-md-12">
+                          <div class="card">
+                              <div class="card-body">
+                                  <div class="row">
+                                      <div class="col-md-2 idea-box">
+                                          <img src="img/address.png" class="contact-img">
+                                      </div>
+                                      <div class="col-md-10 idea-box">
+                                          <h5 class="card-title"><b>Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></h5>
+                                      </div>
+                                  </div>
+                                  <p class="card-text">Lawrence Hospital, Lane 12,near nehru park ,Chandigarh</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-6">
+                          <div class="card">
+                              <div class="card-body">
+                                  <div class="row">
+                                      <div class="col-md-2 idea-box">
+                                          <img src="img/emails.png" class="contact-img">
+                                      </div>
+                                      <div class="col-md-10 idea-box">
+                                          <h5 class="card-title"><b>Email Us&nbsp;&nbsp;&nbsp;&nbsp;</b></h5>
+                                      </div>
+                                  </div>
+                                  <a>
+                                      <p class="card-text">writelawrence@gmail.com</p>
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="card">
+                              <div class="card-body">
+                                  <div class="row">
+                                      <div class="col-md-2 idea-box">
+                                          <img src="img/phone-contact.png" class="contact-img">
+                                      </div>
+                                      <div class="col-md-10 idea-box">
+                                          <h5 class="card-title"><b>Call Us&nbsp;&nbsp;&nbsp;&nbsp;</b></h5>
+                                      </div>
+                                  </div>
+                                  <p class="card-text">98989-54545<br>97979-45454</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-6">
+              <div>
+                  <!-- <h2>Patient's Address</h2> -->
+                  <form method="" action="" name="myform" onSubmit="return validation()">
+                      <div class="input_field">
+                          <input type="text" id="name" name="name" placeholder="Your Name">
+                      </div>
+                      <div class="input_field">
+                          <input type="text" id="email" name="email" placeholder="Your Email">
+                      </div>
+                      <div class="input_field">
+                          <input type="text" id="mobile_number" name="phone" placeholder="Mobile Number">
+                      </div>
+                      <div class="input_field">
+                          <textarea cols="65" rows="7" id="messages" placeholder="Your Message">
+                          </textarea>
+                      </div>
+                      <div class="input_field">
+                          <input class="btn btn-contact" type="submit" value="Send Message">
+                      </div>
+                  </form>
+                </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="container text-center" id="social-media">
+       <div class="social-icons">
+        <a href="https://www.facebook.com/"><img src="img/facebook.png"></a>
+        <a href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome"><img src="img/snapchats.png"></a>
+        <a href="https://www.instagram.com/accounts/login/"><img src="img/instagram.png"></a>
+        <a href="https://api.whatsapp.com/send?phone=8198846106text=welcome%20to%20my%20whatsapp"><img src="img/whatsapp.png"></a>
+        <a href="https://www.linkedin.com/company/login/"><img src="img/linkedin.png"></a>
+      </div>
+  </div>
+
+  </section>
+
+</section>
+<!-- End of Contact Section -->
+ 
+<!-- Footer -->
+<section id="footer" class="footer">
+    <div class="container text-center">
+        <div class="row">
+	        <div class="col-md-4 footer-box">
+	          	<img src="img/masky - Copy.png" class="logo">
+	          	<h2 id="foot">Stay Home, Stay Safe</h2>
+	          	<p id="foot">Lawrence Hospital provides you the best treatment by the specialist doctors and nurses with proper hygine.</p>
+	        </div>
+        <div class="col-md-4 footer-box">
+	        <img src="static/doctor.png" class="logo">
+	        <p id="foot" class="head">CONTACT US</p>
+	        <p id="foot"><img src="img/maps-and-flags - Copy.png" class="footer-img address">Lawrence Hospital</p>
+	        <p id="foot"><img src="img/contact-book - Copy.png" class="footer-img number">98999-54545</p>
+	        <p id="foot"><img src="img/emails.png" class="footer-img email">writelawrence@gmail.com</p>
+        </div>
+        <div class="col-md-4 footer-box">
+	        <img src="img/heartbeat.png" class="logo">
+	        <p id="foot" class="head">SUBSCRIBE NEWSLETTER</p>
+	        <!-- <input type="email" id="subscribe" class="form-control" placeholder="Your Email" onblur="validateSubscribe(this.id)" > -->
+	        <form name="subscribe" onSubmit="return ValidateEmail();"> 
+          	<input type="text" name="email" class="form-control" placeholder="Your Email">
+          	<button type="submit" name="button" class="btn btn-primary">
+            SUBSCRIBE
+          	</button>
+        </div>
+    </div>
+      	<hr>
+      	<p class="copyright">Website crafted by Ritika Katoch</p>
+    </div>
+</section>
+<!-- End of Footer Section -->
+
+  <script src="js/valid.js"></script>
+  <script src="js/warning.js"></script>
+  <script src="js/emailValid.js"></script>
+  <script src="js/toggle.js"></script>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    
+</body>
+</html>
