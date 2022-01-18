@@ -1,0 +1,236 @@
+#contacts{
+    background: url(./healthcare/backgroundpic.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+#contacts .title{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000000;
+  font-size: 3.3rem;
+  color: #63599e;
+  margin-top: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+#contacts .sub-title{
+    text-align: center;
+    color: #000000;
+    margin-top: -1.3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.contact-img{
+    width: 40px;
+    margin: 1px 1px;
+}
+
+.card{
+    text-align: center;
+    font-size: large;
+    width: 100%;
+    height: 210px;
+    margin: 10px 10px !important;
+    padding-top: 5%; 
+    border: 1px solid rgba(0,0,0,0)!important;
+    background-color: rgba(0, 0, 0,0)!important;
+}
+
+.card-body{
+    background: white;
+    border: 5px solid #63599E;
+    border-radius: 5px;
+    margin: 10px 10px !important;
+    width: 100%;
+    padding-top: 5%; 
+}
+
+.card p{
+    margin: 10px 10px;
+    padding: 5px;
+}
+
+form{
+    padding-top: 5%; 
+    margin: 10px 10px;
+}
+
+input{
+    margin: 10px 10px !important;
+    width:100%;
+    height: 60px;
+    font-size: large;
+    border:5px solid #63599E;
+    border-radius:5px;
+    padding: 13px;
+}
+
+textarea{
+    margin: 10px 10px !important;
+    width:100%;
+    height: 163px;
+    border:5px solid #63599E ;
+    border-radius:5px;
+    padding: 13px;
+}
+
+#contact .btn-contact{
+    margin: 28px 0px;
+    padding: 2px;
+    width: 200px;
+    margin-left: -7rem;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background: #00778a;
+    box-shadow: 5px 5px 5px #c4c0db;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    font-weight: 700;
+}
+
+/*--------- Social Hub -----------*/
+
+#social-media .title{  
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000000;
+  font-size: 3.3rem;
+  color: #63599e;
+  margin-bottom: 2.5rem;
+}
+
+#social-media{
+    padding: 30px 0;
+}
+
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+    margin: 10px 5px;
+}
+
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/*-------- footer-section  -----------*/
+
+#footer{
+    background: #63599e;
+    color: white;
+}
+
+#footer .footer-box{
+    padding: 36px;
+}
+
+#footer .logo{
+    width:50px;
+    margin: 10px ;
+}
+
+#footer .footer-box p{
+    text-align: justify;
+
+}
+
+ #footer .footer-img{
+    width: 30px;
+    margin-right:8px!important;
+    margin-top: 5px!important;
+    margin-bottom: 5px!important;
+}
+
+.footer-box .address{
+    margin-left: -33px!important;
+    padding-right:3px;
+}
+
+.footer-box .number{
+    margin-left: -64px!important;
+    padding-right:3px;
+}
+
+.footer-box .email{
+    margin-left: 23px!important;
+    padding-right:3px!important;
+}
+
+#footer .footer-box .form-control{
+    box-shadow: none;
+    border: none;
+    border-radius: 0%;
+    margin-top: 25px;
+}
+
+#footer .footer-box .btn-primary{
+    margin: 28px 0px;
+    padding: 0px 10px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background: #00778a;
+    box-shadow: 5px 5px 5px #392e76;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px #000000;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    transition: all 0.3s;
+    font-weight: 600;
+}
+
+#footer .footer-box .btn-primary:hover{
+	background: #7d88c7;
+}
+
+#footer .col-md-4 footer-box{
+    margin: auto;
+}
+
+#footer hr{
+    background-color: black;
+}
+
+#footer .copyright{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: -1.3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0%;
+}
+
+#footer #foot{
+	text-align: center;
+}
+
+#footer .head{
+	font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+@media(max-width:998px){
+    .footer-box .email{
+        margin-left: -15px!important;
+        padding-right:3px!important;
+    }
+
+}
+
+ 

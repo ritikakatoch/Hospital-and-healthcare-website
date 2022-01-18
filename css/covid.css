@@ -1,0 +1,53 @@
+#banner{
+    color:  white;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+    background:#7d88c7;
+    margin-top: 5rem;
+}
+
+#banner #hideshow{
+    /*visibility: hidden;*/
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.3rem;
+    display: none;
+    /*font-size: 1.3rem;*/
+}
+
+#banner #promo-title{
+    font-size: 45px;
+    margin: 0px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 1rem;*/
+    padding-top: 3rem;
+    color: #ffffff;
+}
+
+#banner #info{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.5rem;
+    font-size: 1.3rem;
+}
+
+#banner .play-btn{
+    width: 45px;
+    height:45px;
+}
+#banner a{
+   color:  white;
+   text-decoration: none;
+}
+#banner .bottom-img{
+    width:100%;
+}
+#banner .img-fluid{
+    width:250px;
+    height:320px;
+    padding-bottom: 20%;
+}
